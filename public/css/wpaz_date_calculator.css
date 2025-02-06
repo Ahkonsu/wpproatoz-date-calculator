@@ -1,0 +1,120 @@
+.wpazdc_calc div {
+	float: left;
+	clear: none;
+	display: inline-block;
+	margin: 2px;
+}
+.wpazdc_calc div.bundled div,
+.wpazdc_calc div#result {
+	float: none;
+	clear: both;
+	display: block;
+}
+
+.wpazdc_calc div#result {
+	font-weight: bold;
+    text-align: right;
+}
+
+#calc_shortcode div {
+    max-wdth: 600px;
+}
+
+#calc_shortcode div input,
+#calc_shortcode div select {
+    max-wdth: inherit;
+}
+
+.wpazdc_calc  input[type="checkbox"] {
+    margin: 4px !important;
+}
+
+.wpazdc_calc .checkxboxes nobr {
+    margin-bottom: 8px;
+}
+
+.wpazdc_calc .checkxboxes span.pre {
+    padding-left: 4px;
+    padding-right: 4px;
+    min-width: 40px;
+    display: inline-block;
+}
+.wpazdc_calc .checkxboxes span.post {
+    padding-left: 4px;
+    padding-right: 4px;
+    min-width: 40px;
+    display: inline-block;
+}
+
+.wpazdc_calc .checkxboxes .switch {
+  position: relative;
+  display: inline-block;
+  width: 38px;
+  height: 24px;
+  padding-left: 48px;
+}
+
+.wpazdc_calc .checkxboxes .switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.wpazdc_calc .checkxboxes .slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.wpazdc_calc .checkxboxes .slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .33s;
+  transition: .33s;
+}
+
+.wpazdc_calc .checkxboxes input[value="1"] + .slider {
+  background-color: #21C396;
+}
+
+.wpazdc_calc .checkxboxes input:focus + .slider {
+  box-shadow: 0 0 1px #21C396;
+}
+
+.wpazdc_calc .checkxboxes .slider.backforwards {
+  background-color: #F32222; /*  */
+}
+
+.wpazdc_calc .checkxboxes input[value="1"] + .slider.backforwards {
+  background-color: #2146E3;
+}
+
+.wpazdc_calc .checkxboxes input:focus + .slider.backforwards {
+  box-shadow: 0 0 1px #2146E3;
+}
+
+.wpazdc_calc .checkxboxes input[value="1"] + .slider:before {
+  -webkit-transform: translateX(22px);
+  -ms-transform: translateX(22px);
+  transform: translateX(22px);
+}
+
+/* Rounded sliders */
+.wpazdc_calc .checkxboxes .slider.round {
+  border-radius: 34px;
+}
+
+.wpazdc_calc .checkxboxes .slider.round:before {
+  border-radius: 50%;
+}
