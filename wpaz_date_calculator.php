@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: === WP Pro A to Z Date Calculator ===
- * Plugin URI: https://wpproatoz.com/wp-pro-a-to-z-plugins-available/
+ * Plugin URI: https://wpproatoz.com/plugins/
  * Description: Plugin to add a date calculator to a website. This plugin adds a date calculator to your site to help you determine a date into the future or the past. It accounts for leap years and you can choose hours, days, weeks, months and years. You can adjust for only 8 hour business days when choosing per hour or business days when choosing by date. Use the following shortcode to place on a page or post [wpaz_calculator]
  * Version: 1.0.2
  * Author: Shawn DeWolfe (dewolfe001) / WPPro AtoZ / Carl
@@ -16,6 +16,29 @@
  * @category Core
  * @author dewolfe001
  */
+ 
+ ////***check for updates code
+
+require 'plugin-update-checker/plugin-update-checker.php';
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+
+$myUpdateChecker = PucFactory::buildUpdateChecker(
+	'https://github.com/Ahkonsu/wpproatoz-date-calculator/',
+	__FILE__,
+	'wpproatoz-date-calculator'
+);
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
+
+//$myUpdateChecker->getVcsApi()->enableReleaseAssets();
+ 
+ 
+//Optional: If you're using a private repository, specify the access token like this:
+//$myUpdateChecker->setAuthentication('your-token-here');
+
+/////////////////////
+
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
