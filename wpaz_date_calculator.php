@@ -248,7 +248,7 @@ final class WPAZ_DateCalc {
 
 		$html = '<div class="wpazdc_calc" id="calc_'.$use.'">';
 		if( !empty( $calculator_form_area_title ) ) {
-			$html .= '<h1>'.__($calculator_form_area_title, 'wpazdc' ).'</h1>';
+			$html .= '<h2>'.__($calculator_form_area_title, 'wpazdc' ).'</h2>';
 		}
 
 		$html .= '<form>';

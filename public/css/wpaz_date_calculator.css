@@ -14,6 +14,7 @@
 .wpazdc_calc div#result {
 	font-weight: bold;
     text-align: right;
+	font-size: xx-large;
 }
 
 #calc_shortcode div {
