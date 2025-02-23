@@ -121,6 +121,17 @@ final class WPAZ_DateCalc {
 	 */
 	public $settings;
 	// Admin - End
+	
+	// Shortcode - Start
+	/**
+	 * The the shortcode we're registering.
+	 * @var     array
+	 * @access  public
+	 * @since   1.0.0
+	 */
+	public $shortcode;
+	//end shorcode
+	
 
 	// Post Types - Start
 	/**

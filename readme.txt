@@ -1,9 +1,46 @@
+ ___  _     _                         
+ / _ \| |   | |                        
+/ /_\ \ |__ | | _____  _ __  ___ _   _ 
+|  _  | '_ \| |/ / _ \| '_ \/ __| | | |
+| | | | | | |   < (_) | | | \__ \ |_| |
+\_| |_/_| |_|_|\_\___/|_| |_|___/\__,_|
+                                       
+                                      
+		
+		
+		\||/
+                |  @___oo
+      /\  /\   / (__,,,,|
+     ) /^\) ^\/ _)
+     )   /^\/   _)
+     )   _ /  / _)
+ /\  )/\/ ||  | )_)
+<  >      |(,,) )__)
+ ||      /    \)___)\
+ | \____(      )___) )___
+  \______(_______;;; __;;;
+
+  
+                     .
+                    / V\
+                  / `  /
+                 <<   |
+                 /    |
+               /      |
+             /        |
+           /    \  \ /
+          (      ) | |
+  ________|   _/_  | |
+<__________\______)\__)
+
+
 === WP Pro A to Z Date Calculator ===
-Contributors: dewolfe001/JohnOverall.com/ Carl
-Tags: Dates, Widgets
-Requires at least: 5.0.0
+Donate link: http://WPProAtoZ.com/donate/
+Contributors: Web321/WPProAtoz/ Carl
+Tags: Dates, Widgets, datecalac
+Requires at least: 6.0.0
 Tested up to: 6.7.1
-Stable tag: 1.1.0
+Stable tag: 1.0.2
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -50,10 +87,15 @@ Stay tuned! But thanks for the offer.
 
 1. The settings screen.
 
-
+== ChangeLog ==
 == Upgrade Notice ==
 
-= 1.1.0= Jan 26, 2025
+= 1.1.0= Feb 22, 2025
+* Updated code to fix bug for php8.2+ compatability
+* added funuction for auto updates and created first pacage
+* other items in readme ect
+
+= 1.0.2= Jan 26, 2025
 * Updated functions and usage of plugin finished the admin page. 
 * Added options for outputs.
 
