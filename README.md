@@ -5,7 +5,7 @@ This README would normally document whatever steps are necessary to get your app
 ### What is this repository for? ###
 
 * Inital code for the Date Calculator
-* Version 1.0.2
+* Version 1.1.0
 * 
 
 ### How do I get set up? ###
