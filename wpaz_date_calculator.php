@@ -3,11 +3,11 @@
  * Plugin Name: === WP Pro A to Z Date Calculator ===
  * Plugin URI: https://wpproatoz.com/plugins/
  * Description: Plugin to add a date calculator to a website. This plugin adds a date calculator to your site to help you determine a date into the future or the past. It accounts for leap years and you can choose hours, days, weeks, months and years. You can adjust for only 8 hour business days when choosing per hour or business days when choosing by date. Use the following shortcode to place on a page or post [wpaz_calculator]
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: Shawn DeWolfe Web321 / WPProAtoZ / Carl
  * Author URI: https://WPPluginsAtoZ.com/
- * Requires at least: 5.0.0
- * Tested up to: 6.7.1
+ * Requires at least: 6.0.0
+ * Tested up to: 6.7.2
  *
  * Text Domain: wpazdc
  * Domain Path: /languages/

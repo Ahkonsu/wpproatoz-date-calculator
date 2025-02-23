@@ -39,8 +39,8 @@ Donate link: http://WPProAtoZ.com/donate/
 Contributors: Web321/WPProAtoz/ Carl
 Tags: Dates, Widgets, datecalac
 Requires at least: 6.0.0
-Tested up to: 6.7.1
-Stable tag: 1.1.0
+Tested up to: 6.7.2
+Stable tag: 1.1.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -90,6 +90,9 @@ Stay tuned! But thanks for the offer.
 == ChangeLog ==
 == Upgrade Notice ==
 
+= 1.1.1= Feb 22, 2025
+* test update and compatable with WP6.7.2 and php 8.3
+
 = 1.1.0= Feb 22, 2025
 * Updated code to fix bug for php8.2+ compatability
 * added funuction for auto updates and created first pacage
@@ -110,7 +113,6 @@ Stay tuned! But thanks for the offer.
 = 1.0.0 =
 * Initial release.
 
-== Changelog ==
 = 1.0.1- July 23, 2019=
 * cleaned up the functionality of the calculator.
 
